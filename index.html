@@ -1,23 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cool Blog</title>
-</head>
-<body>
-    <h1>Shekhar's Blog</h1>
-    <a href="about.html">About Me</a>
-    <h2>Intro</h2>
-    <p>My Name is Shekhar Kumar. I am resident of Bengaluru, India and live here with my cat Louis.</p>
-    <p>Currently I work as a C++ developer for a US based comapany Fastenal Inc. I am interested in programming and mathematics.</p>
-    <h2>Blog Posts</h2>
-    <h3>Lorem, ipsum dolor</h3>
-    <h3>March 18</h3>
-    <div>
-    <img src="https://images.unsplash.com/flagged/photo-1557427161-4701a0fa2f42?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="Kitten Image">
-    </div>
-    <p1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus assumenda beatae consequatur, vero dolores possimus. Explicabo, eius ea. Et dolorum necessitatibus expedita sunt nulla architecto officiis pariatur eveniet numquam, explicabo sint perspiciatis non aliquam quae molestiae eaque eos accusantium voluptates neque magnam, enim vel earum id porro. At, praesentium quibusdam. In quae hic ullam natus omnis porro, libero modi maxime delectus. Ratione ipsa amet quae hic suscipit odio repudiandae vel. Dolores deserunt eius, beatae suscipit culpa rem facilis voluptate dicta? Veritatis necessitatibus deserunt, dolor excepturi assumenda velit sunt cum fugiat doloremque magni tempore reiciendis, sapiente quidem consequuntur quae sit est.</p1>
-</body>
+  </head>
+  <body>
+    <nav>
+      <h1>Shekhar's Blog</h1>
+      <a href="about.html">About Me</a>
+    </nav>
+    <section class="intro">
+      <h2>Intro</h2>
+      <p>
+        My Name is Shekhar Kumar. I am resident of Bengaluru, India and live
+        here with my cat Louis.
+      </p>
+      <p>
+        Currently I work as a C++ developer for a US based hardware comapany
+        Fastenal Inc. I am interested in programming and mathematics.
+      </p>
+    </section>
+    <section class="blog-posts flex-container">
+      <h2>Blog Posts</h2>
+      <article class="blog-post">
+        <h3 class="title">Watching You</h3>
+        <h4 class="author">Shekhar Kumar</h4>
+        <h4 class="date">March 18</h4>
+        <img
+          src="https://images.unsplash.com/flagged/photo-1557427161-4701a0fa2f42?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+          alt="Kitten Image 1"
+          class="blog-image"
+        />
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus
+          assumenda beatae consequatur, vero dolores possimus. Explicabo, eius
+          ea. Et dolorum necessitatibus expedita sunt nulla architecto officiis
+          pariatur eveniet numquam, explicabo sint perspiciatis non aliquam quae
+          molestiae eaque eos accusantium voluptates neque magnam, enim vel
+          earum id porro. At, praesentium quibusdam. In quae hic ullam natus
+          omnis porro, libero modi maxime delectus. Ratione ipsa amet quae hic
+          suscipit odio repudiandae vel. Dolores deserunt eius, beatae suscipit
+          culpa rem facilis voluptate dicta? Veritatis necessitatibus deserunt,
+          dolor excepturi assumenda velit sunt cum fugiat doloremque magni
+          tempore reiciendis, sapiente quidem consequuntur quae sit est.
+        </p>
+      </article>
+      <article class="blog-post">
+        <h3 class="title">Christmas Time</h3>
+        <h4 class="author">Shekhar Kumar</h4>
+        <h4 class="date">May 10</h4>
+        <img src="https://images.unsplash.com/photo-1583083527882-4bee9aba2eea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=477&q=80" alt="Kitten Image2" class="blog-image">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias odit autem accusamus totam natus pariatur quibusdam, odio aspernatur inventore ipsa blanditiis quaerat corrupti animi omnis modi cum ea delectus fugiat suscipit, vel corporis, magnam nemo eum. Tempore totam veritatis, recusandae quisquam minima vero quod at porro impedit deleniti alias doloribus praesentium eum nobis esse obcaecati aliquam velit necessitatibus delectus aut asperiores. Aliquam nihil sed quo veniam, blanditiis rem esse? Doloribus quam molestiae aspernatur nesciunt, illo quidem quasi dicta ea soluta repudiandae, pariatur minima blanditiis sequi nihil aliquid? Ullam officiis suscipit molestiae, molestias architecto quasi beatae reprehenderit ipsa ab animi. Maxime dignissimos, quia illo molestiae expedita architecto reprehenderit excepturi veniam. Ducimus numquam iste temporibus impedit repellat ullam modi omnis, dolores deserunt eveniet unde, accusantium nemo obcaecati quidem quod eligendi ea fuga aspernatur sit soluta! Iste quae, inventore tempora, dolorum consectetur praesentium rerum ad perspiciatis veritatis officia repudiandae quaerat non aspernatur odit!</p>
+      </article>
+
+      <article class="blog-post">
+        <h3 class="title">Another Cat</h3>
+        <h4 class="author">Shekhar Kumar</h4>
+        <h4 class="date">May 10</h4>
+        <img src="https://images.unsplash.com/photo-1567270671170-fdc10a5bf831?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+        alt="Kitten Image3" class="blog-image"/>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore voluptatem beatae odit saepe perferendis! Illum dolore commodi voluptate quod aliquam labore rem obcaecati explicabo laudantium quibusdam accusamus cupiditate eaque enim cumque dicta hic sequi recusandae id, quam deleniti repellat nihil ducimus officiis mollitia? Dolores culpa, reiciendis facere aut dolor, assumenda, inventore ipsa perferendis dolorum sed obcaecati. Pariatur ullam molestias libero harum saepe omnis quisquam quam obcaecati, officiis quasi animi quaerat? Voluptatem iure maxime illum, animi tempore qui obcaecati sint minima soluta provident quas veniam laudantium rerum aliquid reiciendis modi, nam voluptatum accusantium. Fuga placeat vel porro autem architecto doloribus quas magni non debitis quisquam hic quidem, eaque, inventore harum ratione accusantium quasi atque unde ducimus molestiae a? Veniam consequatur excepturi fuga, nesciunt sed nihil aliquam quidem assumenda doloremque, voluptatibus repellat saepe? Alias iure, omnis officiis fuga ipsa reiciendis veniam eligendi.</p>
+      </article>
+    </section>
+    <style>
+        .flex-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .blog-post {
+            display: flex;
+            width:100%;
+            background-color: antiquewhite;
+        }
+        .blog-image {
+            display: inline;
+            float:left;
+            width:auto;
+            padding: 20px;
+        }
+        p {
+            display: inline;
+        }
+    </style>
+  </body>
 </html>
